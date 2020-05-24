@@ -24,6 +24,7 @@ export default function Routes() {
                         <Route exact path="/" component={MainComponent} />
                         <Route exact path="/admin-login" component={AdminLogin} />
                         <Route exact path="/admin-edit" component={AdminEdit} />
+                        <Route exact path="/admin-see-all" component={AdminEdit} />
                         <Route exact path="/admin-add-new" component={AddNew} />
                         <Route exact path="/en-home" component={EnHome} />
                         <Route exact path="/en-events" component={EnEvents} />
