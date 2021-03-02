@@ -5,9 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // Import redux here
-import {Provider} from 'react-redux';
+// import {Provider} from 'react-redux';
 
-import { createStore} from 'redux'; 
+// import { createStore} from 'redux'; 
 // ^ This creates a Redux store that holds the complete state of your app. There should only be a single store in the app.
 // createStore(reducer, [preLoadedState], [enhancer])
 
@@ -35,9 +35,9 @@ ReactDOM.render(
   // e.) Detecting legacy context API
 
   <React.StrictMode>
-    <Provider>
+    {/* <Provider> */}
       <App />
-    </Provider>
+    {/* </Provider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
