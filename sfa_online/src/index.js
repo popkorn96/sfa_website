@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Import Reducers Here
+
+// Import MiddleWare Here
+
+// Combine Reducers Here
+
+// Create Redux Store Here (Remember to wrap <App/> with <Provider/> tags)
+
 
 // To render a React element into a root DOM node, pass both to ReactDOM.render()
 
