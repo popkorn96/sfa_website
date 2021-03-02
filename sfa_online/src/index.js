@@ -4,7 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Import redux here
+import {Provider} from 'react-redux';
+
+import { createStore} from 'redux'; 
+// ^ This creates a Redux store that holds the complete state of your app. There should only be a single store in the app.
+// createStore(reducer, [preLoadedState], [enhancer])
+
+
 // Import Reducers Here
+
+// ^A Reducer is a reducing function that returns the next state tree, given the current state tree and an action to handle.
 
 // Import MiddleWare Here
 
@@ -25,7 +35,9 @@ ReactDOM.render(
   // e.) Detecting legacy context API
 
   <React.StrictMode>
-    <App />
+    <Provider>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
