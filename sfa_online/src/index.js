@@ -4,7 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// To render a React element into a root DOM node, pass both to ReactDOM.render()
+
 ReactDOM.render(
+  // StrictMode is a tool for highlighting problems in an application 
+  // It is able to :
+  // a.) Identify components with unsage lifecycles
+  // b.) Warning about legacy string ref API usage*
+  // c.) Warning about deprecated findDOMNode usage
+  // d.) Detecting unexpected side effects
+  // e.) Detecting legacy context API
+
   <React.StrictMode>
     <App />
   </React.StrictMode>,
@@ -15,3 +26,7 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+// *Refs provide a way to access DOM nodes or React elements created in the render method. 
+// In the typical React dataflow, props are the only way that parent components interact with their children.
