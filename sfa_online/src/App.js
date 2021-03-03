@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router} from 'react-router-dom';
-import EnglishNavBar from './components/EnglishNavBar';
+import EnglishNavBar from './en-components/EnglishNavBar';
 
 
 function App() {
