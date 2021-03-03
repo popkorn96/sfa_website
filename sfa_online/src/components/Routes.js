@@ -5,7 +5,7 @@ export default function Routes() {
     return (
         <Switch>
             <div>
-                <Route exact path="/" component={Main} />
+                {/* <Route exact path="/" component={Main} /> */}
                 <Route exact path="/admin-login" component={} />
                 <Route exact path="/admin-edit" component={} />
                 <Route exact path="/en-home" component={} />
