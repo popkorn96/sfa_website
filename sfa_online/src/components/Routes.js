@@ -1,12 +1,16 @@
 import React from 'react';
 import { Switch, Route} from 'react-router-dom';
+import Main from './Main';
+import AdminLogin from './AdminLogin';
+import AdminEdit from './AdminEdit';
+
 
 export default function Routes() {
     return (
         <Switch>
             <div>
                 {/* <Route exact path="/" component={Main} /> */}
-                <Route exact path="/admin-login" component={} />
+                <Route exact path="/admin-login" component={AdminLogin} />
                 <Route exact path="/admin-edit" component={} />
                 <Route exact path="/en-home" component={} />
                 <Route exact path="/en-events" component={} />
