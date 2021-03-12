@@ -1,13 +1,13 @@
 import './App.css';
 import {BrowserRouter as Router} from 'react-router-dom';
-import EnglishNavBar from './en-components/EnglishNavBar';
+import Main from './components/Main'
 
 
 function App() {
   return (
     <Router>
     <div className="App">
-      <EnglishNavBar/>
+      <Main />
     </div>
   </Router>
   );
