@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function EnEvents() {
+export default function SpEventos() {
     return (
         <div>
-            <h1>English Events</h1>
+            <h1>Eventos</h1>
         </div>
     )
 }

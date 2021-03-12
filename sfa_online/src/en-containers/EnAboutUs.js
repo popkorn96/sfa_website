@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function EnEvents() {
+export default function EnAboutUs() {
     return (
         <div>
-            <h1>English Events</h1>
+            <h1>English About Us</h1>
         </div>
     )
 }
