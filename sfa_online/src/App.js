@@ -21,3 +21,9 @@ export default App;
 // It has a simple API with powerful features like lazy code loading, 
 // dynamic route matching, and location transition handling built right in. 
 // Make the URL your first thought, not an after-thought.
+
+// We use this structure to be able to navigate from the main page and allow
+// the user to choose a language, nesting the Routes component 
+//  lets us use multiple routes and keep our Main component on every page
+// later on, I will update the Main component for a Navigation Bar component 
+// so that styling and concept are complimentary

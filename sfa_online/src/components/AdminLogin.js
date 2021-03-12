@@ -6,6 +6,7 @@ export default function AdminLogin() {
             <h1>Admin Login</h1>
             <input placeholder="Username"></input>
             <input placeholder="Password"></input>
+            <button>Submit</button>
         </div>
     )
 }
