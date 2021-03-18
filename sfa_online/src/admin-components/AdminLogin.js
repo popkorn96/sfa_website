@@ -2,12 +2,21 @@ import React from 'react'
 
 export default function AdminLogin() {
     return (
-        <div>
-            <h1>Admin Login</h1>
-            <input placeholder="Username"></input>
-            <input placeholder="Password"></input>
-            <button>Submit</button><br/>
-            <button><a href="/admin-edit">Admin Edit</a></button>
-        </div>
+        <div className="login-wrapper">
+        <h1>Please Log In</h1>
+        <form>
+          <label>
+            <p>Username</p>
+            <input type="text" />
+          </label>
+          <label>
+            <p>Password</p>
+            <input type="password" />
+          </label>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
     )
 }
