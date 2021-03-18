@@ -4,6 +4,7 @@ export default function EnDonations() {
     return (
         <div>
             <h1>Donations Page</h1>
+            <Announcements/>
         </div>
     )
 }
