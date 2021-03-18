@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Announcements from '../components/Announcements';
+
 
 export default function EnDonations() {
     return (
