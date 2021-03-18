@@ -23,3 +23,7 @@ export default function AdminEdit() {
         </div>
     )
 }
+
+// Only allow access to this page when admin user is logged in
+// To create admin user, user authentication through sms, email or google auth is required
+// 
