@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route, Link, useParams, useRouteMatch, BrowserRouter as Router} from 'react-router-dom';
-import AdminLogin from '../admin-components/AdminLogin';
-import AdminEdit from '../admin-components/AdminEdit';
+
 import EnHome from '../en-containers/EnHome';
 import EnEvents from '../en-containers/EnEvents'
 import EnGallery from '../en-containers/EnGallery';

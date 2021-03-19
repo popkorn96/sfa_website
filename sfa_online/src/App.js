@@ -1,8 +1,9 @@
 import './App.css';
 import React, {useState} from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
-import Main from './components/Main'
-import Routes from './components/Routes'
+import Main from './components/Main';
+import Routes from './components/Routes';
+import AdminRoutes from './components/AdminRoutes';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     <Router>
     <div className="App">
       <Main />
-      <Routes/>
+      <AdminRoutes/>
     </div>
   </Router>
   );
