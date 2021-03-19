@@ -1,10 +1,22 @@
 import './App.css';
+import React, {useState} from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
 import Main from './components/Main'
 import Routes from './components/Routes'
 
 
 function App() {
+  const [token, setToken] = useState();
+  if(!token) {
+    return (
+      <Router>
+      <div className="App">
+        <Main />
+        <Routes/>
+      </div>
+    </Router>
+    );
+  }
   return (
     <Router>
     <div className="App">
