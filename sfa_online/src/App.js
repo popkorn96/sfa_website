@@ -13,7 +13,7 @@ function App() {
       <Router>
       <div className="App">
         <Main />
-        <Routes/>
+        <Routes setToken={setToken}/>
       </div>
     </Router>
     );
@@ -21,8 +21,7 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <Main />
-      <AdminRoutes/>
+      <AdminRoutes />
     </div>
   </Router>
   );

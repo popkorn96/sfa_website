@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route, Link, useParams, useRouteMatch, BrowserRouter as Router} from 'react-router-dom';
-
+import AdminLogin from '../admin-components/AdminLogin';
 import EnHome from '../en-containers/EnHome';
 import EnEvents from '../en-containers/EnEvents'
 import EnGallery from '../en-containers/EnGallery';
@@ -18,6 +18,7 @@ export default function Routes() {
         <Router>
             <Switch>
                     <div>
+                        <Route exact path="/admin-login" component={AdminLogin} />
                         <Route exact path="/en-home" component={EnHome} />
                         <Route path="/en-events" component={EnEvents} />
                         <Route exact path="/en-gallery" component={EnGallery} />
