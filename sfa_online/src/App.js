@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
 import Main from './components/Main';
 import Routes from './components/Routes';
-import AdminRoutes from './components/AdminRoutes';
+import AdminRoutes from './admin-components/AdminRoutes';
 
 
 function App() {

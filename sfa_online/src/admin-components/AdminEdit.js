@@ -19,7 +19,8 @@ export default function AdminEdit() {
                 <button>Edit Sobre Nosotros</button><br/>
             <h4>General Pages</h4>
                 <button>Announcements</button><br/>
-                <button></button>
+                <button></button><hr/>
+                <button>Logout</button>
         </div>
     )
 }
