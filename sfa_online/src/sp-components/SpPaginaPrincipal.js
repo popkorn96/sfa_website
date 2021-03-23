@@ -1,5 +1,5 @@
 import React from 'react';
-import Anuncios from '../components/Announcements';
+import Anuncios from '../components/Anuncios';
 
 export default function SpPaginaPrincipal() {
     return (
