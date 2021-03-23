@@ -7,24 +7,14 @@ import AdminRoutes from './admin-components/AdminRoutes';
 
 
 function App() {
-  const [token, setToken] = useState();
-  if(!token) {
-    return (
+  return(
       <Router>
-      <div className="App">
-        <Main />
-        <Routes setToken={setToken}/>
-      </div>
-    </Router>
+        <div className="App">
+          <Main />
+          <Routes />
+        </div>
+      </Router>
     );
-  }
-  return (
-    <Router>
-    <div className="App">
-      <AdminRoutes />
-    </div>
-  </Router>
-  );
 }
 
 export default App;
