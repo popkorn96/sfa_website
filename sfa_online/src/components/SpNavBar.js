@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-export const MainNavigationBar = (props) => {
+export const SpanishNavigationBar = (props) => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#home">San Francisco de Asis</Navbar.Brand>
@@ -31,4 +31,4 @@ export const MainNavigationBar = (props) => {
         </Navbar>
     );
 };
-export default (MainNavigationBar)
+export default (SpanishNavigationBar)

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import NavigationBar from './NavBar'
+import MainNavigationBar from './NavBar'
 
 export default function Main() {
     return (
@@ -12,7 +12,8 @@ export default function Main() {
                 
             </nav><br/>
             <button><a href="/admin-login" > Admin Login</a></button> */}
-            <NavigationBar/>
+            <MainNavigationBar/>
         </div>
     )
 }
+// This component will determine whether a user is logged in or not and provide the appropriate NavBar version
