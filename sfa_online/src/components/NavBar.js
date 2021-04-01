@@ -4,10 +4,18 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
+
 export const MainNavigationBar = (props) => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="/">San Francisco de Asis</Navbar.Brand>
+        <Navbar.Brand href="/">
+        <img
+        src="/logo1.png"
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+        alt=""
+        />{' '}San Francisco de Asis</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
