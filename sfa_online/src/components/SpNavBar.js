@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export const SpanishNavigationBar = (props) => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">San Francisco de Asis</Navbar.Brand>
+        <Navbar.Brand href="/sp-pagína-principal">San Francisco de Asis</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
