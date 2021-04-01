@@ -1,8 +1,6 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import {Navbar, Nav, NavDropdown} from 'react-bootstrap/';
+import Logo from '../../public/logo1.png';
 
 
 export const MainNavigationBar = (props) => {
@@ -10,7 +8,7 @@ export const MainNavigationBar = (props) => {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="/">
         <img
-        src="/logo1.png"
+        src="(Logo)"
         width="30"
         height="30"
         className="d-inline-block align-top"
