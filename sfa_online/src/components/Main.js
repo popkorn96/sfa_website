@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 
 export default function Main() {
     return (
         <div>
+            <NavBar/>
             <a href="/"><h1>Welcome to San Francisco de Asis</h1></a><hr/>
             <nav>
                 <button><a href="/en-home">English </a></button>
