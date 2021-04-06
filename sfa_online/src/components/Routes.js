@@ -4,12 +4,12 @@ import AdminLogin from '../admin-components/AdminLogin';
 import EnHome from '../en-containers/EnHome';
 import EnEvents from '../en-containers/EnEvents'
 import EnGallery from '../en-containers/EnGallery';
+import EnDonations from '../en-containers/EnDonations';
 import EnAboutUs from '../en-containers/EnAboutUs';
 import SpPaginaPrincipal from '../sp-components/SpPaginaPrincipal';
 import SpEventos from '../sp-components/SpEventos';
 import SpGaleria from '../sp-components/SpGaleria';
 import SpSobreNosotros from '../sp-components/SpSobreNosotros';
-import EnDonations from '../en-containers/EnDonations';
 import SpDonaciones from '../sp-components/SpDonaciones';
 
 

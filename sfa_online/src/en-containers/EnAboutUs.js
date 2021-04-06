@@ -1,6 +1,6 @@
-import React from 'react'
-import Announcements from '../components/Announcements'
-import EnglishNavigationBar from '../components/EnNavBar'
+import React from 'react';
+import Announcements from '../components/Announcements';
+import EnglishNavigationBar from '../components/EnNavBar';
 
 export default function EnAboutUs() {
     return (
@@ -10,4 +10,4 @@ export default function EnAboutUs() {
             <Announcements/>
         </div>
     )
-}
+};
