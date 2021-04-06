@@ -20,7 +20,7 @@ export const MainNavigationBar = (props) => {
             </Nav>
             <Nav>
             <Nav.Link href="/en-home">English</Nav.Link>
-            <Nav.Link eventKey={2} href="/sp-pagína-principal">Español</Nav.Link>
+            <Nav.Link eventKey={2} href="/sp-pagina-principal">Español</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>
