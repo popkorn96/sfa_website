@@ -1,26 +1,17 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import {Navbar, Nav} from 'react-bootstrap/';
 
 const EnglishNavigationBar = (props) => {
     return (
-        <Nav fill variant="tabs" defaultActiveKey="/home">
-        <Nav.Item>
-            <Nav.Link href="/en-home">Home</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="link-1">Loooonger NavLink</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="disabled" disabled>
-            Disabled
-            </Nav.Link>
-        </Nav.Item>
+        <Navbar collapseOnSelect bg="dark" bg="light" variant="light">
+        <Navbar.Brand href="/en-home">Home</Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link href="/en-events">Events</Nav.Link>
+          <Nav.Link href="/en-gallery">Gallery</Nav.Link>
+          <Nav.Link href="/en-donations">Donations</Nav.Link>
+          <Nav.Link href="/en-about-us">About Us</Nav.Link>
         </Nav>
+      </Navbar>
     );
 };
 export default (EnglishNavigationBar);
