@@ -22,12 +22,12 @@ export default function Routes() {
                         <Route exact path="/en-home" component={EnHome} />
                         <Route exact path="/en-events" component={EnEvents} />
                         <Route exact path="/en-gallery" component={EnGallery} />
-                        <Route exact path="/en-donations" components={EnDonations} />
+                        <Route exact path="/en-don" component={EnDonations} />
                         <Route exact path="/en-about-us" component={EnAboutUs} />
                         <Route exact path="/sp-pagina-principal" component={SpPaginaPrincipal} />
                         <Route exact path="/sp-eventos" component={SpEventos} />
                         <Route exact path="/sp-galería" component={SpGaleria} />
-                        <Route exact path="/en-donaciónes" component={SpDonaciones} />
+                        <Route exact path="/sp-donaciónes" component={SpDonaciones} />
                         <Route exact path="/sp-sobre-nosotros" component={SpSobreNosotros} />
                     </div>
                 </Switch>
