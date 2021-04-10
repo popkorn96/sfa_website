@@ -13,8 +13,8 @@ export const SpanishNavigationBar = (props) => {
           <Nav.Link href="/sp-sobre-nosotros">Sobre Nosotros</Nav.Link>
         </Nav>
         <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-primary">BUSCAR EN SFA</Button>
+          <FormControl type="text" placeholder="Buscar en SFA..." className="mr-sm-2" />
+          <Button variant="outline-primary">Buscar</Button>
         </Form>
       </Navbar>
     );

@@ -5,15 +5,15 @@ import {Navbar, Nav, NavDropdown} from 'react-bootstrap/';
 
 export const MainNavigationBar = (props) => {
     return (
-        <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="/">
-        <img
-        src="./logo1.png"
-        width="40"
-        height="40"
-        className="d-inline-block align-top"
-        alt=""
-        />{' '}San Francisco de Asís</Navbar.Brand>
+            <img
+            src="./logo1.png"
+            width="50"
+            height="50"
+            className="d-inline-block align-top"
+            alt=""
+            />{' '}San Francisco de Asís</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
