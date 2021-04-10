@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Nav} from 'react-bootstrap/';
+import {Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap/';
 
 const EnglishNavigationBar = (props) => {
     return (
@@ -11,6 +11,11 @@ const EnglishNavigationBar = (props) => {
           <Nav.Link href="/en-don">Donations </Nav.Link>
           <Nav.Link href="/en-about-us">About Us </Nav.Link>
         </Nav>
+        <Form inline>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+          <Button variant="outline-primary"><i class="bi bi-search"></i>
+</Button>
+        </Form>
       </Navbar>
     );
 };

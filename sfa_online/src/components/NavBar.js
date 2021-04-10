@@ -1,19 +1,19 @@
 import React from 'react';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap/';
-// import Logo from '../../public/logo1.png';
+
 
 
 export const MainNavigationBar = (props) => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="/">
         <img
-        // src="(Logo)"
-        width="30"
-        height="30"
+        src="./logo1.png"
+        width="40"
+        height="40"
         className="d-inline-block align-top"
         alt=""
-        />{' '}San Francisco de Asis</Navbar.Brand>
+        />{' '}San Francisco de Asís</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
