@@ -5,7 +5,7 @@ import {Navbar, Nav} from 'react-bootstrap/';
 
 export const MainNavigationBar = (props) => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar className="main-nav" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand className="center-navbar"href="/">
             <img
             src="./logo1.png"
