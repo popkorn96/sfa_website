@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import MainNavigationBar from './NavBar'
+import MainNavigationBar from './NavBar';
+import Footer from './Footer';
 
 export default function Main() {
     return (
@@ -13,6 +14,7 @@ export default function Main() {
             </nav><br/>
             <button><a href="/admin-login" > Admin Login</a></button> */}
             <MainNavigationBar/>
+            <Footer/>
         </div>
     )
 }
