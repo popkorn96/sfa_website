@@ -1,13 +1,19 @@
 import React from 'react';
-import {Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap/';
+import {Navbar, Nav, NavItem, NavLink, Form, FormControl, Button, Dropdown} from 'react-bootstrap/';
 
 const EnglishNavigationBar = (props) => {
     return (
         <Navbar collapseOnSelect bg="light" sticky="top" variant="light">
-        <Navbar.Brand href="/en-home">Home</Navbar.Brand>
         <Nav className="mr-auto">
+          <Nav.Link href="/en-home">Home </Nav.Link>
           <Nav.Link href="/en-events">Events </Nav.Link>
           <Nav.Link href="/en-gallery">Gallery </Nav.Link>
+          <Dropdown as={NavItem}>
+          <Dropdown.Toggle as={NavLink}>Ministries</Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item>Hello there!</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
           <Nav.Link href="/en-don">Donations </Nav.Link>
           <Nav.Link href="/en-about-us">About Us </Nav.Link>
         </Nav>

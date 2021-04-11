@@ -1,5 +1,5 @@
 import React from 'react'
-import { Switch, Route, Link, useParams, useRouteMatch, BrowserRouter as Router} from 'react-router-dom';
+import { Switch, Route, BrowserRouter as Router} from 'react-router-dom';
 import AdminEdit from './AdminEdit';
 
 export default function AdminRoutes() {
