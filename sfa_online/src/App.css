@@ -32,6 +32,26 @@
   width:30%;
   margin-left: 35%;
 }
+.footer {
+  position: static;
+  bottom: 0;
+  background-color: #334255;
+}
+.footer-links {
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+}
+.footer-links:visited {
+  text-decoration: none;
+}
+.footer-links:hover {
+  color: white;
+  text-decoration: none;
+}
+.footer-links:active {
+  color: white;
+  text-decoration: none;
+}
 .images {
   height: 100px;
   width: 100px;
