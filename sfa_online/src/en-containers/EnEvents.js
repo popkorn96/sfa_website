@@ -9,6 +9,7 @@ export default function EnEvents() {
             <EnglishNavigationBar />
             <h1>English Events</h1>
             <Announcements/>
+            <Footer/>
         </div>
     )
 }

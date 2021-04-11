@@ -11,6 +11,7 @@ export default class EnDonations extends Component {
                 <EnglishNavigationBar />
                 <h1>English Donations Page</h1>
                 <Announcements/>
+                <Footer />
             </div>
         )
     }

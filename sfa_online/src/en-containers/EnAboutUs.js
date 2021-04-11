@@ -8,6 +8,7 @@ export default function EnAboutUs() {
             <EnglishNavigationBar />
             <h1>English About Us</h1>
             <Announcements/>
+            <Footer />
         </div>
     )
 };
