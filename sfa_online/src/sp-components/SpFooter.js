@@ -18,6 +18,9 @@ export default class SpFooter extends Component {
                     <Col><a className="footer-links" href="/sp-pagina-principal">Condiciones de Uso</a></Col>
                     <Col><a className="footer-links" href="/sp-pagina-principal">Derechos de Autor</a></Col>
                 </Row>
+                <Row>
+                    <Col><a className="footer-links" href="/admin-login">Inicio de Sesión de Administrador</a></Col>
+                </Row>
                 </Container><br/>
             </div>
         )

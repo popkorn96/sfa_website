@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function Announcements() {
-    return (
-        <div>
-            <h3>Announcements</h3>
-        </div>
-    )
+export default class Announcements extends Component {
+    render() {
+        return (
+            <div>
+                <h5>Announcements:</h5>
+            </div>
+        )
+    }
 }
