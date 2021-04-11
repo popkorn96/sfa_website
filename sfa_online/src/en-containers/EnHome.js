@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../components/Footer';
+import Footer from './EnFooter';
 import Announcements from '../components/Announcements';
 import EnglishNavigationBar from '../components/EnNavBar';
 

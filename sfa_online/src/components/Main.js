@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import MainNavigationBar from './NavBar';
-import Footer from './Footer';
+import Footer from '../en-containers/EnFooter';
 
 export default function Main() {
     return (

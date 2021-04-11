@@ -21,7 +21,7 @@ export const MainNavigationBar = (props) => {
             <Nav>
             <Nav.Link href="/en-home">English</Nav.Link>
             <Nav.Link eventKey={2} href="/sp-pagina-principal">Español</Nav.Link>
-            <Nav.Link eventKey={3} href="/admin-login">Admin Login</Nav.Link>
+            <Nav.Link className="border-md-left" eventKey={3} href="/admin-login">Admin Login</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

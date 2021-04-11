@@ -27,6 +27,10 @@
 .App-link {
   color: #61dafb;
 }
+.border-md-left {
+  border-left: .10px solid rgb(122, 122, 122);
+}
+
 .center-navbar {
   font-size: 40px !important;
   width:30%;
