@@ -5,11 +5,13 @@ import SpFooter from './SpFooter';
 
 export default function SpEventos() {
     return (
-        <div>
-            <SpanishNavigationBar />
-            <h1>Eventos</h1>
-            <Anuncios />
-            <SpFooter />
+        <div id="page-container">
+            <div id="content-wrap">
+                <SpanishNavigationBar />
+                <h1>Eventos</h1>
+                <Anuncios />
+                <SpFooter />
+            </div>
         </div>
-    )
-}
+    );
+};

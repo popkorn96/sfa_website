@@ -5,11 +5,13 @@ import SpFooter from './SpFooter';
 
 export default function SpDonaciones() {
     return (
-        <div>
-            <SpanishNavigationBar />
-            <h1>Donaciónes</h1>
-            <Anuncios />
-            <SpFooter />
+        <div id="page-container">
+            <div id="content-wrap">
+                <SpanishNavigationBar />
+                <h1>Eventos</h1>
+                <Anuncios />
+                <SpFooter />
+            </div>
         </div>
-    )
-}
+    );
+};

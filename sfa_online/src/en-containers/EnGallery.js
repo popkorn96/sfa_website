@@ -18,3 +18,8 @@ export default function EnGallery() {
     )
 }
 
+<div id="page-container">
+    <div id="content-wrap">
+
+    </div>
+</div>

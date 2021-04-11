@@ -5,11 +5,14 @@ import SpFooter from './SpFooter';
 
 export default function SpSobreNosotros() {
     return (
-        <div>
-            <SpanishNavigationBar />
-            <h1>Sobre Nosotros</h1>
-            <Anuncios />
-            <SpFooter />
+        <div id="page-container">
+            <div id="content-wrap">
+                <SpanishNavigationBar />
+                <h1>Sobre Nosotros</h1>
+                <Anuncios />
+                <SpFooter />
+        
+            </div>
         </div>
     )
 }
