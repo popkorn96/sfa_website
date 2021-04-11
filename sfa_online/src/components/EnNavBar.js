@@ -9,11 +9,11 @@ const EnglishNavigationBar = (props) => {
           <Nav.Link href="/en-events">Events </Nav.Link>
           <Nav.Link href="/en-gallery">Gallery </Nav.Link>
           <Dropdown as={NavItem}>
-          <Dropdown.Toggle as={NavLink}>Ministries</Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item>Hello there!</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
+            <Dropdown.Toggle as={NavLink}>Ministries</Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item>Hello there!</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
           <Nav.Link href="/en-don">Donations </Nav.Link>
           <Nav.Link href="/en-about-us">About Us </Nav.Link>
         </Nav>
