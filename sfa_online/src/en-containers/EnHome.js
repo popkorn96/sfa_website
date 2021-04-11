@@ -7,25 +7,12 @@ export default function EnHome() {
     
     return (
         <div id="page-container">
-            <EnglishNavigationBar />
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <h1>English Home</h1>
-            <Announcements/>
-            <Footer/>
+            <div id="content-wrap">
+                <EnglishNavigationBar />
+                <h1>English Home</h1>
+                <Announcements/>
+                <Footer/>
+            </div>
         </div>
     )
 }

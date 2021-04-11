@@ -8,10 +8,13 @@ import Footer from './EnFooter';
 export default function EnGallery() {
     return (
         <div id="page-container">
-            <EnglishNavigationBar />
-            <h1>English Gallery</h1>
-            <Announcements/>
-            <Footer />
+            <div id="content-wrap">
+                <EnglishNavigationBar />
+                <h1>English Gallery</h1>
+                <Announcements/>
+                <Footer />
+            </div>
         </div>
     )
 }
+

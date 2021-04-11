@@ -5,11 +5,13 @@ import Footer from './EnFooter';
 
 export default function EnAboutUs() {
     return (
-        <div>
-            <EnglishNavigationBar />
-            <h1>English About Us</h1>
-            <Announcements/>
-            <Footer />
+        <div id="page-container">
+            <div id="content-wrap">
+                <EnglishNavigationBar />
+                <h1>English About Us</h1>
+                <Announcements/>
+                <Footer />
+            </div>
         </div>
-    )
+    );
 };
