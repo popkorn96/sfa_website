@@ -6,7 +6,7 @@ import {Navbar, Nav} from 'react-bootstrap/';
 export const MainNavigationBar = (props) => {
     return (
         <Navbar className="main-nav" collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand className="center-navbar"href="/">
+        <Navbar.Brand className="center-navbar"href="/main">
             <img
             src="./logo1.png"
             width="60"

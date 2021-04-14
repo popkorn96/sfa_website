@@ -11,6 +11,7 @@ import SpEventos from '../sp-components/SpEventos';
 import SpGaleria from '../sp-components/SpGaleria';
 import SpSobreNosotros from '../sp-components/SpSobreNosotros';
 import SpDonaciones from '../sp-components/SpDonaciones';
+import MainComponent from './MainComponent';
 
 
 export default function Routes() {
@@ -18,6 +19,7 @@ export default function Routes() {
         <Router>
             <Switch>
                     <div>
+                        <Route exact path="/main" component={MainComponent} />
                         <Route exact path="/admin-login" component={AdminLogin} />
                         <Route exact path="/en-home" component={EnHome} />
                         <Route exact path="/en-events" component={EnEvents} />
