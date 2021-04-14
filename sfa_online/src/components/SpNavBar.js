@@ -10,7 +10,7 @@ export const SpanishNavigationBar = (props) => {
           <Nav.Link href="/sp-eventos">Eventos</Nav.Link>
           <Nav.Link href="/sp-galería">Galería</Nav.Link>
           <Dropdown as={NavItem}>
-            <Dropdown.Toggle as={NavLink}>Ministrios</Dropdown.Toggle>
+            <Dropdown.Toggle as={NavLink}>Ministerios</Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item>Hello there!</Dropdown.Item>
             </Dropdown.Menu>
