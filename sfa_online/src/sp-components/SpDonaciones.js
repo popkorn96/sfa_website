@@ -8,7 +8,8 @@ export default function SpDonaciones() {
         <div id="page-container">
             <div id="content-wrap">
                 <SpanishNavigationBar />
-                <h1>Eventos</h1>
+                <h1>Donaciónes</h1>
+                <a href="https://onrealm.org/SFADALLAS/-/give/now">Donar Ahora</a>
                 <Anuncios />
                 <SpFooter />
             </div>
