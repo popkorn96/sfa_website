@@ -5,8 +5,7 @@ import {Container, Row, Col} from 'react-bootstrap/';
 export default class Footer extends Component {
     render() {
         return (
-            <div id="footer">
-                <hr/>
+            <div id="footer"><br/>
                 <Container variant="dark">
                 <Row>
                     <Col><a className="footer-links" href="https://edod.org/">Episcopal Dioces of Dallas</a></Col>

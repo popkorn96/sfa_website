@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font: "Times New Roman", Times, serif;
 }
 
 .App-logo {
@@ -62,6 +63,10 @@
   height: 100px;
   width: 100px;
 }
+.main-container {
+  position: relative;
+  min-height: 91vh;
+}
 .main-nav {
   background-color: #334255;
 }
@@ -89,6 +94,6 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #334255;
-  height: 9rem;            /* Footer height */
+  background-color: #51555c;
+  height: 8rem;            /* Footer height */
 }
