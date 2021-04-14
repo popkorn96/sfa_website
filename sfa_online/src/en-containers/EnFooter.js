@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Container, Row, Col} from 'react-bootstrap/';
+import * as Icon from 'react-feather';
 
 
 export default class Footer extends Component {
@@ -19,6 +20,9 @@ export default class Footer extends Component {
                 </Row>
                 <Row>
                     <Col><a className="footer-links" href="/admin-login">Admin Login</a></Col>
+                    <Col><a className="footer-links" href="https://www.facebook.com/sfa.iglesia"><Icon.Facebook /></a></Col>
+                    <Col><a className="footer-links" href="https://www.instagram.com/sfa_dallas/"><Icon.Instagram /></a></Col>
+                    {/* <Col><a className="footer-links" href="https://goo.gl/maps/J3maqjs2BKjCVj5g7/"><Icon.Map-Pin /></a></Col> */}
                 </Row>
                 </Container><br/>
             </div>

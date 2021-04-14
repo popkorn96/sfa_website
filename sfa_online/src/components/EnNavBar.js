@@ -18,7 +18,7 @@ const EnglishNavigationBar = (props) => {
           <Nav.Link href="/en-about-us">About Us </Nav.Link>
         </Nav>
         <Form inline>
-          <FormControl type="text" placeholder="Search in SFA..." className="mr-sm-2" />
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-primary">Search</Button>
         </Form>
       </Navbar>
