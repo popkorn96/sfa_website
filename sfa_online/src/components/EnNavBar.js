@@ -1,5 +1,6 @@
 import React from 'react';
 import {Navbar, Nav, NavItem, NavLink, Form, FormControl, Button, Dropdown} from 'react-bootstrap/';
+import {Search} from 'react-feather';
 
 const EnglishNavigationBar = (props) => {
     return (
@@ -19,7 +20,7 @@ const EnglishNavigationBar = (props) => {
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-primary">Search</Button>
+          <Button variant="outline-light"><Search color="grey"/></Button>
         </Form>
       </Navbar>
     );

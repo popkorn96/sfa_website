@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, Navbar, Form, FormControl, Button, Dropdown, NavItem, NavLink} from 'react-bootstrap';
-
+import {Search} from 'react-feather';
 
 export const SpanishNavigationBar = (props) => {
     return (
@@ -20,7 +20,7 @@ export const SpanishNavigationBar = (props) => {
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Buscar en SFA..." className="mr-sm-2" />
-          <Button variant="outline-primary">Buscar</Button>
+          <Button variant="outline-light"><Search color="grey"/></Button>
         </Form>
       </Navbar>
     );
