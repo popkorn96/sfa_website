@@ -9,22 +9,21 @@ export default class Footer extends Component {
             <div id="footer"><br/>
                 <Container variant="dark">
                 <Row>
+                    <Col><a className="footer-links" href="https://www.facebook.com/sfa.iglesia"><Icon.Facebook /></a></Col>
+                    <Col><a className="footer-links" href="https://www.instagram.com/sfa_dallas/"><Icon.Instagram /></a></Col>
+                    <Col><a className="footer-links" href="mailto: contact@sfadallas.org"><Icon.Mail /></a></Col>
+                </Row><br/>
+                <Row>
                     <Col><a className="footer-links" href="https://edod.org/">Episcopal Dioces of Dallas</a></Col>
                     <Col><a className="footer-links" href="/en-home">Calendar</a></Col>
-                    <Col><a className="footer-links" href="/en-home">Contact Us</a></Col>
+                    <Col><a className="footer-links" href="https://www.google.com/maps/place/San+Francisco+De+Asis./@32.8519064,-96.6552568,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb9ff1b438ce79b74!8m2!3d32.8519064!4d-96.6530681">Find Us</a></Col>
                 </Row>
                 <Row>
                     <Col><a className="footer-links" href="/en-home">Privacy Policy</a></Col>
                     <Col><a className="footer-links" href="/en-home">Terms of Use</a></Col>
                     <Col><a className="footer-links" href="/en-home">Copyright</a></Col>
                 </Row>
-                <Row>
-                    <Col><a className="footer-links" href="/admin-login">Admin Login</a></Col>
-                    <Col><a className="footer-links" href="https://www.facebook.com/sfa.iglesia"><Icon.Facebook /></a></Col>
-                    <Col><a className="footer-links" href="https://www.instagram.com/sfa_dallas/"><Icon.Instagram /></a></Col>
-                    {/* <Col><a className="footer-links" href="https://goo.gl/maps/J3maqjs2BKjCVj5g7/"><Icon.Map-Pin /></a></Col> */}
-                </Row>
-                </Container><br/>
+                </Container>
             </div>
         )
     }

@@ -1,25 +1,30 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './Login.css';
+import {Form, Button} from 'react-bootstrap';
+import Footer from '../en-containers/EnFooter';
 
 export default function AdminLogin() {
 
     return (
-        <div className="login-wrapper">
-        <h1>Please Log In</h1>
-        <form >
-          <label>
-            <p>Username</p>
-            <input type="text" />
-          </label>
-          <label>
-            <p>Password</p>
-            <input type="password" />
-          </label>
-          <div>
-            <button type="submit">Submit</button>
-          </div>
-        </form>
+        <div className="login-wrapper"><br/>
+        <h1>Administrative Login</h1><br/>
+        <Form>
+          <Form.Group controlId="formBasicEmail">
+            <Form.Label>Admin Email</Form.Label>
+            <Form.Control type="email" placeholder="Enter email" />
+            
+          </Form.Group>
+
+          <Form.Group controlId="formBasicPassword">
+            <Form.Label>Password</Form.Label>
+            <Form.Control type="password" placeholder="Password" />
+          </Form.Group>
+          <Button variant="outline-info" type="submit">
+            Submit
+          </Button>
+        </Form>
+        <Footer />
       </div>
     )
 }

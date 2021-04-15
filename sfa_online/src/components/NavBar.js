@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap/';
-
+import * as Icon from 'react-feather';
 
 
 export const MainNavigationBar = (props) => {
@@ -21,6 +21,9 @@ export const MainNavigationBar = (props) => {
             <Nav>
             <Nav.Link href="/en-home">English</Nav.Link>
             <Nav.Link eventKey={2} href="/sp-pagina-principal">Español</Nav.Link>
+            </Nav>
+            <Nav>
+                <Nav.Link href="/admin-login"><Icon.LogIn/></Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>
