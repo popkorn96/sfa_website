@@ -80,6 +80,10 @@
   float: left !important;
   margin-top: -15px !important;
 }
+.page-container {
+  position: relative;
+  min-height: 110vh;
+}
 
 @keyframes App-logo-spin {
   from {

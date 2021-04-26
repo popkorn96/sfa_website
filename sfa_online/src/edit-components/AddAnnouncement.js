@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import {Form, ListGroup, Button} from 'react-bootstrap';
 import * as Icon from 'react-feather';
+import AdminFooter from '../admin-components/AdminFooter';
 
 export default class AddAnnouncement extends Component {
     render() {
         return (
-            <div>
+            <div className="page-container">
                 <br/><h1><Icon.PlusSquare /> Announcement</h1><br/>
                 <Form>
                     <Form.Group controlId="exampleForm.ControlInput1">
@@ -42,6 +43,7 @@ export default class AddAnnouncement extends Component {
                         Submit
                     </Button>
                 </Form>
+                <AdminFooter />
             </div>
         )
     }
