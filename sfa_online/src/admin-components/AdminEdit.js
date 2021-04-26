@@ -8,14 +8,14 @@ export default function AdminEdit() {
         <div>
             <ButtonToolbar className="justify-content-between">
                 <ButtonGroup aria-label="Basic example">
-                <Button variant="secondary"><Icon.PlusCircle/>Announcement</Button>
-                <Button variant="secondary"><Icon.PlusCircle/>Event</Button>
-                <Button variant="secondary"><Icon.PlusCircle/>Photo to Gallery</Button>
+                <Button variant="light" href="/admin-edit/add-new"><Icon.PlusCircle/>Add New</Button>
+                <Button variant="light"><Icon.PlusCircle/>Event</Button>
+                <Button variant="light"><Icon.PlusCircle/>Photo to Gallery</Button>
                 </ButtonGroup>
                 <ButtonGroup aria-label="Basic example">
-                <Button variant="secondary"><Icon.PlusCircle/>Anuncio</Button>
-                <Button variant="secondary"><Icon.PlusCircle/>Evento</Button>
-                <Button variant="secondary"><Icon.PlusCircle/>Foto a Galería</Button>
+                <Button variant="light"><Icon.PlusCircle/>Anuncio</Button>
+                <Button variant="light"><Icon.PlusCircle/>Evento</Button>
+                <Button variant="light"><Icon.PlusCircle/>Foto a Galería</Button>
                 </ButtonGroup>
             </ButtonToolbar>
             <br/><h1>Admin Page</h1><br/>
