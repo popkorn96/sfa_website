@@ -1,34 +1,24 @@
 import React, { Component } from 'react';
-import {ButtonToolbar, Button, ButtonGroup, Nav} from 'react-bootstrap';
+import {Nav, Tab, Tabs} from 'react-bootstrap';
 import * as Icon from 'react-feather';
+import AddAnnouncement from '../edit-components/AddAnnouncement';
 
 export default class AddNew extends Component {
     render() {
         return (
             <div>
                 <h1>Add New... </h1>
-                <Nav fill variant="tabs" defaultActiveKey="/home">
-                    <Nav.Item>
-                        <Nav.Link href="/home"><Icon.PlusCircle/> Announcement</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-1"><Icon.PlusCircle/> Event</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-2"><Icon.PlusCircle/> Photo to Gallery</Nav.Link>
-                    </Nav.Item>
-                </Nav>
-                <Nav fill variant="tabs" defaultActiveKey="/home">
-                    <Nav.Item>
-                        <Nav.Link href="/home"><Icon.PlusCircle/> Anuncio</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-1"><Icon.PlusCircle/> Evento</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-2"><Icon.PlusCircle/> Foto a Galería</Nav.Link>
-                    </Nav.Item>
-                </Nav>
+                <Tabs id="controlled-tab-example">
+                <Tab eventKey="Announcement" title="Announcement">
+                     <AddAnnouncement />
+                </Tab>
+                <Tab eventKey="Event" title="Event">
+
+                </Tab>
+                <Tab eventKey="Photo to Gallery" title="Photo to Gallery">
+
+                </Tab>
+                </Tabs>
             </div>
         )
     }

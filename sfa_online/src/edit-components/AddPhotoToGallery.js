@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {Form} from 'react-bootstrap';
 
-export default class AddAnnouncement extends Component {
+export default class AddPhotoToGallery extends Component {
     render() {
         return (
             <div>
-                <br/><h1>Announcement</h1><br/>
+                <br/><h1>Photo To Gallery</h1><br/>
                 <Form>
                     <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Label>Email address</Form.Label>

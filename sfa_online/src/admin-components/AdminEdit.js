@@ -1,7 +1,6 @@
 import React from 'react';
-import {Nav, Navbar, Button, ButtonGroup, ButtonToolbar} from 'react-bootstrap';
+import {Nav, Button} from 'react-bootstrap';
 import AdminFooter from './AdminFooter';
-import * as Icon from 'react-feather';
 
 export default function AdminEdit() {
     return (
