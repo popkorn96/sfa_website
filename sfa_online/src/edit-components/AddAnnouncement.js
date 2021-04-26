@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Form} from 'react-bootstrap';
+import {Form, ListGroup, Button} from 'react-bootstrap';
 import * as Icon from 'react-feather';
 
 export default class AddAnnouncement extends Component {
@@ -9,11 +9,18 @@ export default class AddAnnouncement extends Component {
                 <br/><h1><Icon.PlusSquare /> Announcement</h1><br/>
                 <Form>
                     <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="name@example.com" />
+                        <Form.Label>Title</Form.Label>
+                        <Form.Control placeholder="Write announcement title here..." />
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlSelect1">
                         <Form.Label>Type of Alert</Form.Label>
+                        <ListGroup bg="sm" className="listgroup1" fluid horizontal>
+                        <ListGroup.Item variant="success"><Icon.Bookmark/> Main</ListGroup.Item>
+                        <ListGroup.Item variant="primary"><Icon.Bell/> Secondary</ListGroup.Item>
+                        <ListGroup.Item variant="secondary"><Icon.BookOpen/> Information</ListGroup.Item>
+                        <ListGroup.Item variant="warning"><Icon.Flag/> Warning</ListGroup.Item>
+                        <ListGroup.Item variant="danger"><Icon.AlertOctagon/> Urgent</ListGroup.Item>
+                        </ListGroup>
                         <Form.Control as="select">
                         <option>Main</option>
                         {/* Success */}
@@ -27,20 +34,13 @@ export default class AddAnnouncement extends Component {
                         {/* Danger */}
                         </Form.Control>
                     </Form.Group>
-                    <Form.Group controlId="exampleForm.ControlSelect2">
-                        <Form.Label>Example multiple select</Form.Label>
-                        <Form.Control as="select" multiple>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        </Form.Control>
-                    </Form.Group>
                     <Form.Group controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Example textarea</Form.Label>
-                        <Form.Control as="textarea" rows={3} />
+                        <Form.Label>Announcement Text</Form.Label>
+                        <Form.Control as="textarea" placeholder="Write announcement here..." rows={3} />
                     </Form.Group>
+                    <Button variant="info" type="submit">
+                        Submit
+                    </Button>
                 </Form>
             </div>
         )

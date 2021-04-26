@@ -63,6 +63,11 @@
   height: 100px;
   width: 100px;
 }
+.listgroup1 {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
 .main-container {
   position: relative;
   height: 715px;
