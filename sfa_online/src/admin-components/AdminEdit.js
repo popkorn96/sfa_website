@@ -1,33 +1,25 @@
 import React from 'react';
-import {Nav, Navbar, Button, ButtonGroup} from 'react-bootstrap';
+import {Nav, Navbar, Button, ButtonGroup, ButtonToolbar} from 'react-bootstrap';
 import AdminFooter from './AdminFooter';
 import * as Icon from 'react-feather';
 
 export default function AdminEdit() {
     return (
         <div>
-            <Navbar bg="light" variant="light">
-            <Nav defaultActiveKey="/home" className="flex-column">
-            <Nav.Link href="#home"><Icon.PlusCircle/>Announcement</Nav.Link>
-            <Nav.Link href="#features"><Icon.PlusCircle/>Event</Nav.Link>
-            <Nav.Link href="#pricing"><Icon.PlusCircle/>Photo to Gallery</Nav.Link>
-            </Nav>
-                <Nav className="mr-auto">
-                </Nav>
-                <Nav>
-
-                <Nav.Link inline href="#pricing"><Icon.PlusCircle/>Anuncio</Nav.Link>
-                <Nav.Link inline href="#pricing"><Icon.PlusCircle/>Evento</Nav.Link>
-                <Nav.Link inline href="#pricing"><Icon.PlusCircle/>Foto a Galería</Nav.Link>
-                </Nav>
-            </Navbar>
+            <ButtonToolbar className="justify-content-between">
+                <ButtonGroup aria-label="Basic example">
+                <Button variant="secondary"><Icon.PlusCircle/>Announcement</Button>
+                <Button variant="secondary"><Icon.PlusCircle/>Event</Button>
+                <Button variant="secondary"><Icon.PlusCircle/>Photo to Gallery</Button>
+                </ButtonGroup>
+                <ButtonGroup aria-label="Basic example">
+                <Button variant="secondary"><Icon.PlusCircle/>Anuncio</Button>
+                <Button variant="secondary"><Icon.PlusCircle/>Evento</Button>
+                <Button variant="secondary"><Icon.PlusCircle/>Foto a Galería</Button>
+                </ButtonGroup>
+            </ButtonToolbar>
             <br/><h1>Admin Page</h1><br/>
             <h4>English Pages</h4>
-            <ButtonGroup aria-label="Basic example">
-            <Button variant="secondary">Left</Button>
-            <Button variant="secondary">Middle</Button>
-            <Button variant="secondary">Right</Button>
-            </ButtonGroup>
             <Nav defaultActiveKey="/home" fill variant="tabs">
                 <Nav.Link href="/home">Edit Home Page</Nav.Link>
                 <Nav.Link eventKey="link-1">Edit Donations Page</Nav.Link>
