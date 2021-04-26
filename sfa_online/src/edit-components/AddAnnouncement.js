@@ -1,24 +1,30 @@
 import React, { Component } from 'react';
 import {Form} from 'react-bootstrap';
+import * as Icon from 'react-feather';
 
 export default class AddAnnouncement extends Component {
     render() {
         return (
             <div>
-                <br/><h1>Announcement</h1><br/>
+                <br/><h1><Icon.PlusSquare /> Announcement</h1><br/>
                 <Form>
                     <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control type="email" placeholder="name@example.com" />
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlSelect1">
-                        <Form.Label>Example select</Form.Label>
+                        <Form.Label>Type of Alert</Form.Label>
                         <Form.Control as="select">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option>Main</option>
+                        {/* Success */}
+                        <option>Secondary</option>
+                        {/* Primary */}
+                        <option>Information</option>
+                        {/* Secondary */}
+                        <option>Warning</option>
+                        {/* Warning */}
+                        <option>Urgent</option>
+                        {/* Danger */}
                         </Form.Control>
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlSelect2">

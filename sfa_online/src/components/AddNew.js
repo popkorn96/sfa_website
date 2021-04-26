@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {Nav, Tab, Tabs} from 'react-bootstrap';
 import * as Icon from 'react-feather';
 import AddAnnouncement from '../edit-components/AddAnnouncement';
+import AddEvent from '../edit-components/AddEvent';
+import AddPhotoToGallery from '../edit-components/AddPhotoToGallery';
 
 export default class AddNew extends Component {
     render() {
@@ -13,10 +15,10 @@ export default class AddNew extends Component {
                      <AddAnnouncement />
                 </Tab>
                 <Tab eventKey="Event" title="Event">
-
+                    <AddEvent />
                 </Tab>
                 <Tab eventKey="Photo to Gallery" title="Photo to Gallery">
-
+                    <AddPhotoToGallery />
                 </Tab>
                 </Tabs>
             </div>
