@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter as Router} from 'react-router-dom';
 import AdminLogin from '../admin-components/AdminLogin';
+import AdminEdit from '../admin-components/AdminEdit';
 import EnHome from '../en-containers/EnHome';
 import EnEvents from '../en-containers/EnEvents'
 import EnGallery from '../en-containers/EnGallery';
@@ -21,6 +22,7 @@ export default function Routes() {
                     <div>
                         <Route exact path="/main" component={MainComponent} />
                         <Route exact path="/admin-login" component={AdminLogin} />
+                        <Route exact path="/admin-edit" component={AdminEdit} />
                         <Route exact path="/en-home" component={EnHome} />
                         <Route exact path="/en-events" component={EnEvents} />
                         <Route exact path="/en-gallery" component={EnGallery} />

@@ -4,14 +4,13 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import Main from './components/Main';
 import Routes from './components/Routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AdminRoutes from './admin-components/AdminRoutes';
 
 
 function App() {
   return(
       <Router>
         <div className="App">
-          <Main />
+          {/* <Main /> */}
           <Routes />
         </div>
       </Router>
