@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {ButtonToolbar, Button, ButtonGroup} from 'react-bootstrap';
+import {ButtonToolbar, Button, ButtonGroup, Nav} from 'react-bootstrap';
 import * as Icon from 'react-feather';
 
 export default class AddNew extends Component {
@@ -7,18 +7,28 @@ export default class AddNew extends Component {
         return (
             <div>
                 <h1>Add New... </h1>
-                <ButtonToolbar className="justify-content-between">
-                <ButtonGroup aria-label="Basic example">
-                <Button variant="light" href="/admin-edit/add-new"><Icon.PlusCircle/>Add New</Button>
-                <Button variant="light"><Icon.PlusCircle/>Event</Button>
-                <Button variant="light"><Icon.PlusCircle/>Photo to Gallery</Button>
-                </ButtonGroup>
-                <ButtonGroup aria-label="Basic example">
-                <Button variant="light"><Icon.PlusCircle/>Anuncio</Button>
-                <Button variant="light"><Icon.PlusCircle/>Evento</Button>
-                <Button variant="light"><Icon.PlusCircle/>Foto a Galería</Button>
-                </ButtonGroup>
-            </ButtonToolbar>
+                <Nav fill variant="tabs" defaultActiveKey="/home">
+                    <Nav.Item>
+                        <Nav.Link href="/home"><Icon.PlusCircle/> Announcement</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link eventKey="link-1"><Icon.PlusCircle/> Event</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link eventKey="link-2"><Icon.PlusCircle/> Photo to Gallery</Nav.Link>
+                    </Nav.Item>
+                </Nav>
+                <Nav fill variant="tabs" defaultActiveKey="/home">
+                    <Nav.Item>
+                        <Nav.Link href="/home"><Icon.PlusCircle/> Anuncio</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link eventKey="link-1"><Icon.PlusCircle/> Evento</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link eventKey="link-2"><Icon.PlusCircle/> Foto a Galería</Nav.Link>
+                    </Nav.Item>
+                </Nav>
             </div>
         )
     }
