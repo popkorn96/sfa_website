@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import MainComponent from './MainComponent';
 import MainNavigationBar from './NavBar';
 
 export default function Main() {

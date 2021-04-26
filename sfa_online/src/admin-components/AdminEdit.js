@@ -1,12 +1,19 @@
 import React from 'react';
-import {Nav, Button, Container, Row, Col} from 'react-bootstrap';
+import {Nav, Navbar, Button, Container, Row, Col} from 'react-bootstrap';
 import * as Icon from 'react-feather';
 
 export default function AdminEdit() {
     return (
         <div>
-            <h1>Admin Page</h1>
-            <h3>Info</h3>
+            <Navbar bg="success" variant="dark">
+                <Navbar href="#home">Navbar</Navbar>
+                <Nav className="mr-auto">
+                <Nav.Link href="#home">Add Announcement</Nav.Link>
+                <Nav.Link href="#features">Add Event</Nav.Link>
+                <Nav.Link href="#pricing">Add to Gallery</Nav.Link>
+                </Nav>
+            </Navbar>
+            <br/><h1>Admin Page</h1><br/>
             <h4>English Pages</h4>
             <Nav defaultActiveKey="/home" fill variant="tabs">
                 <Nav.Link href="/home">Edit Home Page</Nav.Link>

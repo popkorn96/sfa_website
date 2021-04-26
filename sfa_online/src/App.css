@@ -65,6 +65,7 @@
 }
 .main-container {
   position: relative;
+  height: 715px;
   min-height: 91vh;
 }
 .main-nav {
