@@ -39,7 +39,7 @@ export default class AddAnuncio extends Component {
                         <Form.Control as="textarea" placeholder="Crear anuncio..." rows={3} />
                     </Form.Group>
                     <Button variant="info" type="submit">
-                        Submit
+                        Crear
                     </Button>
                 </Form>
             </div>

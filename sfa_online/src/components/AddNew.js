@@ -5,6 +5,7 @@ import AdminFooter from '../admin-components/AdminFooter';
 import AddAnnouncement from '../edit-components/AddAnnouncement';
 import AddAnuncio from '../edit-components/AddAnuncio';
 import AddEvent from '../edit-components/AddEvent';
+import AddEvento from '../edit-components/AddEvento';
 import AddPhotoToGallery from '../edit-components/AddPhotoToGallery';
 
 export default class AddNew extends Component {
@@ -26,7 +27,7 @@ export default class AddNew extends Component {
                         <Container>
                             <Row>
                                 <Col><AddEvent /></Col>
-                                <Col><AddEvent /></Col>
+                                <Col><AddEvento /></Col>
                             </Row>
                         </Container>
                     </Tab>

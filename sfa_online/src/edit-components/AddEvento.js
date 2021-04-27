@@ -3,51 +3,51 @@ import {Form, Button, ListGroup, Col} from 'react-bootstrap';
 import * as Icon from 'react-feather';
 
 
-export default class AddEvent extends Component {
+export default class AddEvento extends Component {
     render() {
         return (
             <div>
-                <br/><h1>Event</h1><br/>
+                <br/><h1>Evento</h1><br/>
                 <Form>
                 <Form.Row>
                     <Form.Group as={Col} controlId="formGridEmail">
-                    <Form.Label>Date</Form.Label>
+                    <Form.Label>Fecha</Form.Label>
                     <Form.Control type="date" />
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="formGridPassword">
-                    <Form.Label>Time</Form.Label>
+                    <Form.Label>Hora</Form.Label>
                     <Form.Control type="time" />
                     </Form.Group>
                 </Form.Row>
-                    {/* Here, it would be good to add a fequency timer for recurring events like Google Calendar has. */}
+                    {/* Here, it would be good to add a fequency timer for recurring Eventos like Google Calendar has. */}
                     <Form.Group controlId="exampleForm.ControlSelect2">
-                        <Form.Label>Type of Event</Form.Label>
+                        <Form.Label>Tipo de Evento</Form.Label>
                         <ListGroup bg="sm" className="listgroup1" fluid horizontal>
-                            <ListGroup.Item variant="primary"><Icon.Home/> Church</ListGroup.Item>
-                            <ListGroup.Item variant="warning"><Icon.ShoppingBag/> Fundraiser</ListGroup.Item>
-                            <ListGroup.Item variant="success"><Icon.Truck/> Community</ListGroup.Item>
+                            <ListGroup.Item variant="primary"><Icon.Home/> Iglesia</ListGroup.Item>
+                            <ListGroup.Item variant="warning"><Icon.ShoppingBag/> Fondos</ListGroup.Item>
+                            <ListGroup.Item variant="success"><Icon.Truck/> Comunidad</ListGroup.Item>
                             <ListGroup.Item variant="danger"><Icon.CloudLightning/> Weather</ListGroup.Item>
                             <ListGroup.Item variant="secondary"><Icon.Calendar/> Other</ListGroup.Item>
                         </ListGroup>
                         <Form.Control as="select" >
-                        <option>Church Event</option>
-                        <option>Fundraiser</option>
-                        <option>Food Drive</option>
-                        <option>Weather Advisory</option>
-                        <option>Other</option>
+                        <option>Evento de Iglesia</option>
+                        <option>Recaudación de Fondos</option>
+                        <option>Comunidad</option>
+                        <option>Aviso Meteorológico</option>
+                        <option>Otro</option>
                         </Form.Control>
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Label>Title</Form.Label>
-                        <Form.Control placeholder="Write event title here..." />
+                        <Form.Label>Título</Form.Label>
+                        <Form.Control placeholder="Write Evento title here..." />
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Event Description</Form.Label>
+                        <Form.Label>Descripción del Evento</Form.Label>
                         <Form.Control as="textarea" rows={3} />
                     </Form.Group>
                     <Button variant="info" type="submit">
-                        Submit
+                        Crear
                     </Button>
                 </Form><br/>
             </div>
