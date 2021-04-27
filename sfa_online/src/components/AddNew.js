@@ -6,7 +6,8 @@ import AddAnnouncement from '../edit-components/AddAnnouncement';
 import AddAnuncio from '../edit-components/AddAnuncio';
 import AddEvent from '../edit-components/AddEvent';
 import AddEvento from '../edit-components/AddEvento';
-import AddPhotoToGallery from '../edit-components/AddPhotoToGallery';
+import AddFoto from '../edit-components/AddFoto';
+import AddPhoto from '../edit-components/AddPhoto';
 
 export default class AddNew extends Component {
     render() {
@@ -34,10 +35,10 @@ export default class AddNew extends Component {
                     <Tab eventKey="Photo to Gallery" title="Photo to Gallery">
                         <Container>
                             <Row>
-                                <Col><AddEvent /></Col>
-                                <Col><AddEvent /></Col>
+                                <Col><AddPhoto /></Col>
+                                <Col><AddFoto /></Col>
                             </Row>
-                        </Container>                        <AddPhotoToGallery />
+                        </Container>
                     </Tab>
                     </Tabs>
                     <AdminFooter />
