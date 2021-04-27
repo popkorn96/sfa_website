@@ -6,7 +6,7 @@ export default class AddAnnouncement extends Component {
     render() {
         return (
             <div className="page-container">
-                <br/><h1><Icon.PlusSquare /> Announcement</h1><br/>
+                <br/><h1>Announcement</h1><br/>
                 <Form>
                     <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Label>Title</Form.Label>
@@ -42,7 +42,6 @@ export default class AddAnnouncement extends Component {
                         Submit
                     </Button>
                 </Form>
-                
             </div>
         )
     }

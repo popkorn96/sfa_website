@@ -23,10 +23,20 @@ export default class AddNew extends Component {
                         </Container>
                     </Tab>
                     <Tab eventKey="Event" title="Event">
-                        <AddEvent />
+                        <Container>
+                            <Row>
+                                <Col><AddEvent /></Col>
+                                <Col><AddEvent /></Col>
+                            </Row>
+                        </Container>
                     </Tab>
                     <Tab eventKey="Photo to Gallery" title="Photo to Gallery">
-                        <AddPhotoToGallery />
+                        <Container>
+                            <Row>
+                                <Col><AddEvent /></Col>
+                                <Col><AddEvent /></Col>
+                            </Row>
+                        </Container>                        <AddPhotoToGallery />
                     </Tab>
                     </Tabs>
                     <AdminFooter />
