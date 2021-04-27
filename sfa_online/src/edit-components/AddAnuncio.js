@@ -8,10 +8,6 @@ export default class AddAnuncio extends Component {
             <div className="page-container">
                 <br/><h1>Anuncio</h1><br/>
                 <Form>
-                    <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Label>Title</Form.Label>
-                        <Form.Control placeholder="Write Anuncio title here..." />
-                    </Form.Group>
                     <Form.Group controlId="exampleForm.ControlSelect1">
                         <Form.Label>Tipo de Alerta</Form.Label>
                         <ListGroup bg="sm" className="listgroup1" fluid horizontal>
@@ -34,12 +30,16 @@ export default class AddAnuncio extends Component {
                         {/* Danger */}
                         </Form.Control>
                     </Form.Group>
+                    <Form.Group controlId="exampleForm.ControlInput1">
+                        <Form.Label>Title</Form.Label>
+                        <Form.Control placeholder="Write Anuncio title here..." />
+                    </Form.Group>
                     <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Anuncio</Form.Label>
                         <Form.Control as="textarea" placeholder="Crear anuncio..." rows={3} />
                     </Form.Group>
                     <Button variant="info" type="submit">
-                        Crear
+                        Submit
                     </Button>
                 </Form>
             </div>

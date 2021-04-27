@@ -8,10 +8,6 @@ export default class AddAnnouncement extends Component {
             <div className="page-container">
                 <br/><h1>Announcement</h1><br/>
                 <Form>
-                    <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Label>Title</Form.Label>
-                        <Form.Control placeholder="Write announcement title here..." />
-                    </Form.Group>
                     <Form.Group controlId="exampleForm.ControlSelect1">
                         <Form.Label>Type of Alert</Form.Label>
                         <ListGroup bg="sm" className="listgroup1" fluid horizontal>
@@ -33,6 +29,10 @@ export default class AddAnnouncement extends Component {
                         <option>Urgent</option>
                         {/* Danger */}
                         </Form.Control>
+                    </Form.Group>
+                    <Form.Group controlId="exampleForm.ControlInput1">
+                        <Form.Label>Title</Form.Label>
+                        <Form.Control placeholder="Write announcement title here..." />
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Announcement Text</Form.Label>
