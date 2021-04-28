@@ -26,7 +26,7 @@ export default function EnHome() {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="./IMG_1286.JPG"
+                        src="./home2.png"
                         alt="Second slide"
                         />
 
@@ -38,7 +38,7 @@ export default function EnHome() {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
+                        src="./home1.png"
                         alt="Third slide"
                         />
 
