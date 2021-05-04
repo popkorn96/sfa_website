@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './EnFooter';
 import Announcements from '../components/Announcements';
 import EnglishNavigationBar from '../components/EnNavBar';
-import {Carousel} from 'react-bootstrap';
+import {Carousel, Spinner} from 'react-bootstrap';
 
 export default function EnHome() {
     
@@ -10,8 +10,11 @@ export default function EnHome() {
         <div id="page-container">
             <div id="content-wrap">
                 <EnglishNavigationBar />
-                <br/><h1>English Home</h1><br/>
                 <Carousel>
+                <Spinner animation="border" variant="warning" role="status">
+                    <span className="sr-only">Loading...</span>
+                </Spinner>
+                {/* <Spinner animation="border" variant="warning" /> */}
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
