@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import MainNavigationBar from './NavBar';
 
 export default function Main() {

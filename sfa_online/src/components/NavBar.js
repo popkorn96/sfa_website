@@ -12,7 +12,7 @@ export const MainNavigationBar = (props) => {
             width="60"
             height="60"
             className="d-inline-block align-top"
-            alt="SFA logo"
+            alt="SFA"
             />{' '}San Francisco de Asís</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

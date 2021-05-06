@@ -6,8 +6,7 @@ export default function MainComponent() {
     return (
         <div>
             <div className="main-container">
-                <Image src="./main-back5.png" fluid />
-                
+                <Image src="./main-back5.png" fluid/>
                 <Footer />
             </div>
         </div>

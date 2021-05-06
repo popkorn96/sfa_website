@@ -1,5 +1,5 @@
 import React from 'react';
-import {Nav, Button, Tab, Container, Tabs} from 'react-bootstrap';
+import {Button, Tab, Container, Tabs} from 'react-bootstrap';
 import Temp from '../components/Temp';
 import AdminFooter from './AdminFooter';
 
