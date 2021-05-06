@@ -1,5 +1,6 @@
 import React from 'react';
-import {Nav, Button} from 'react-bootstrap';
+import {Nav, Button, Tab, Container, Tabs} from 'react-bootstrap';
+import Temp from '../components/Temp';
 import AdminFooter from './AdminFooter';
 
 export default function AdminEdit() {
@@ -7,18 +8,48 @@ export default function AdminEdit() {
         <div>
             <Button variant="info" href="/admin-edit/add-new" size="lg" block>Add New... </Button><br/>
             <br/><h1>Admin Page</h1><br/>
-            <h4>English Pages</h4>
-            <Nav defaultActiveKey="/home" fill variant="tabs">
-                <Nav.Link href="/home">Edit Home Page</Nav.Link>
-                <Nav.Link eventKey="link-1">Edit Donations Page</Nav.Link>
-                <Nav.Link eventKey="link-2">Edit About Us Page</Nav.Link>
-            </Nav><br/>
-            <h4>Spanish Pages</h4>
-            <Nav defaultActiveKey="/home" fill variant="tabs">
-                <Nav.Link href="/home">Edit Página Principal</Nav.Link>
-                <Nav.Link eventKey="link-1">Edit Donaciónes</Nav.Link>
-                <Nav.Link eventKey="link-2">Edit Sobre Nosotros</Nav.Link>
-            </Nav>
+            <i><h4>English Pages</h4></i>
+            <Tabs id="controlled-tab-example">
+                    <Tab eventKey="edit-home" title="Edit Home"> 
+                        <Container>
+                            <br/>
+                            <Temp />
+                        </Container>
+                    </Tab>
+                    <Tab eventKey="edit-donations" title="Edit Donations">
+                        <Container>
+                            <br/>
+                            <Temp />
+                        </Container>
+                    </Tab>
+                    <Tab eventKey="edit-about-us" title="Edit About Us">
+                        <Container>
+                            <br/>
+                            <Temp />
+                        </Container>
+                    </Tab>
+            </Tabs>
+            <i><h4>Spanish Pages</h4></i>
+            <Tabs id="controlled-tab-example">
+                    <Tab eventKey="edit-home" title="Edit Página Principal"> 
+                        <Container>
+                            <br/>
+                            <Temp />
+                        </Container>
+                    </Tab>
+                    <Tab eventKey="edit-donations" title="Edit Donaciónes">
+                        <Container>
+                            <br/>
+                            <Temp />
+                        </Container>
+                    </Tab>
+                    <Tab eventKey="edit-about-us" title="Edit Sobre Nosotros">
+                        <Container>
+                            <br/>
+                            <Temp />
+                        </Container>
+                    </Tab>
+            </Tabs>
             <AdminFooter />
 
         </div>

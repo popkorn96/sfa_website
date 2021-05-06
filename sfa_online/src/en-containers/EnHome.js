@@ -11,9 +11,6 @@ export default function EnHome() {
             <div id="content-wrap">
                 <EnglishNavigationBar />
                 <Carousel>
-                <Spinner animation="border" variant="warning" role="status">
-                    <span className="sr-only">Loading...</span>
-                </Spinner>
                 {/* <Spinner animation="border" variant="warning" /> */}
                     <Carousel.Item>
                         <img
@@ -26,7 +23,7 @@ export default function EnHome() {
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="./home2.png"
@@ -49,7 +46,7 @@ export default function EnHome() {
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                         </Carousel.Caption>
-                    </Carousel.Item>
+                    </Carousel.Item> */}
                     </Carousel>
                 <br/><Announcements/><br/>
                 <Footer/>

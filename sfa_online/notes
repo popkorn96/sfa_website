@@ -1,0 +1,33 @@
+Objects to create + attributes
+
+User
+  - Login Authentication (+OAUTH)
+  - Has many announcements
+  - Has many events
+  - Has many photos (gallery)
+  - Has many ministries
+
+Announcements 
+  - Belongs to user
+  - Classification
+  - Title
+  - Content
+  - Footer
+
+Announcements 
+  - Belongs to user
+  - Classification
+  - Date
+  - Time
+  - Title
+  - Description
+
+Photos
+  - Belongs to user
+  - Title
+  - Description
+  
+Announcements 
+  - Belongs to user
+  - 
+  - 
