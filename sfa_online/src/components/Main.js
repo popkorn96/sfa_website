@@ -1,5 +1,5 @@
 import React from 'react'
-import MainNavigationBar from './NavBar';
+import MainNavigationBar from './MainNavigationBar';
 
 export default function Main() {
     return (
