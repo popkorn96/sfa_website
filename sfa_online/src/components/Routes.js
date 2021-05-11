@@ -21,7 +21,7 @@ export default function Routes() {
         <Router>
             <Switch>
                     <div>
-                        <Route exact path="/main" component={MainComponent} />
+                        <Route exact path="/" component={MainComponent} />
                         <Route exact path="/admin-login" component={AdminLogin} />
                         <Route exact path="/admin-edit" component={AdminEdit} />
                         <Route exact path="/admin-edit/add-new" component={AddNew} />

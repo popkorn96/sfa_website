@@ -6,7 +6,7 @@ import * as Icon from 'react-feather';
 export const MainNavigationBar = (props) => {
     return (
         <Navbar className="main-nav" collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand className="center-navbar"href="/main">
+        <Navbar.Brand className="center-navbar"href="/">
             <img
             src="./logo1.png"
             width="60"

@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap/';
 import * as Icon from 'react-feather';
 
 
-export default class Footer extends Component {
+export default class EnFooter extends Component {
     render() {
         return (
             <div id="footer"><br/>
