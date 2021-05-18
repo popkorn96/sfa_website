@@ -6,9 +6,10 @@ import AdminFooter from './AdminFooter';
 export default function AdminEdit() {
     return (
         <div id="page-container">
-            <div id="content-wrap">
-                <Button variant="info" href="/admin-edit/add-new" size="lg" block>Add New... </Button><br/>
-                <br/><h1>Admin Page</h1><br/>
+            <div id="content-wrap"><br/>
+                <Button variant="outline-success" href="/admin-add-new" size="lg">Add New </Button>{' '}
+                <Button variant="outline-info" href="/admin-show-all" size="lg">See All </Button><br/><br/><br/>
+                <h1>Admin Page</h1><br/>
                 <i><h4>English Pages</h4></i>
                 <Tabs id="controlled-tab-example">
                         <Tab eventKey="edit-home" title="Edit Home"> 
