@@ -4,7 +4,7 @@ import * as Icon from 'react-feather';
 
 export default function AdminFooter() {
     return (
-        <div className="footer">
+        <div className="admin-footer">
             <Button variant="danger" block>Logout</Button><br/>
             <Container variant="dark">
                 <Row>

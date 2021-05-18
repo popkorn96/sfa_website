@@ -23,7 +23,7 @@ export const MainNavigationBar = (props) => {
             <Nav.Link eventKey={2} href="/sp-pagina-principal">Español</Nav.Link>
             </Nav>
             <Nav>
-                <Nav.Link href="/admin-logout"><Icon.LogIn/></Nav.Link>
+                <Nav.Link href="/admin-logout"><Icon.LogOut/></Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

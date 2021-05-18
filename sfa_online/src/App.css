@@ -44,6 +44,13 @@
   background-color: #553e31 !important;
   height: 9rem;  
 }
+.admin-footer {
+  position: static !important;
+  bottom: 0;
+  width: 100%;
+  background-color: #553e31 !important;
+  height: 11rem;  
+}
 .footer-links {
   color: rgb(180, 180, 180);
   text-decoration: none;
