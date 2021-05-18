@@ -34,7 +34,7 @@ export default function Routes() {
                         <Route exact path="/sp-eventos" component={SpEventos} />
                         <Route exact path="/sp-galería" component={SpGaleria} />
                         <Route exact path="/sp-donaciónes" component={SpDonaciones} />
-                        <Route exact path="/sp/sobre-nosotros" component={SpSobreNosotros} />
+                        <Route exact path="/sp-sobre-nosotros" component={SpSobreNosotros} />
                     </div>
                 </Switch>
         </Router>

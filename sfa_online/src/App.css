@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font: "Times New Roman", Times, serif;
+  font-family: Arial, sans-serif;
 }
 
 .App-logo {
@@ -38,7 +38,7 @@
   margin-left: 35%;
 }
 .footer {
-  position: static;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -70,16 +70,19 @@
   justify-content: center;
 }
 .main-container {
-  position: relative;
+  position: absolute;
   height: 680px;
   min-height: 95vh;
+  background-color: #523317 !important;
 }
 .main-nav {
-  background-color: #334255;
+  background-color: #523317 !important;
+  color: white;
 }
 .nav-logo {
   float: left !important;
   margin-top: -15px !important;
+  
 }
 .page-container {
   position: relative;
@@ -105,6 +108,6 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #51555c;
+  background-color: #523317 !important;
   height: 9rem;            /* Footer height */
 }
