@@ -39,11 +39,10 @@
 }
 .footer {
   position: absolute;
-  left: 0;
   bottom: 0;
   width: 100%;
-  height: 9rem;
-  background-color: #334255;
+  background-color: #553e31 !important;
+  height: 9rem;  
 }
 .footer-links {
   color: rgb(180, 180, 180);
@@ -73,10 +72,10 @@
   position: absolute;
   height: 680px;
   min-height: 95vh;
-  background-color: #523317 !important;
+  background-color: #553e31 !important;
 }
 .main-nav {
-  background-color: #523317 !important;
+  background-color: #553e31 !important;
   color: white;
 }
 .nav-logo {
@@ -108,6 +107,6 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #523317 !important;
+  background-color: #553e31 !important;
   height: 9rem;            /* Footer height */
 }
