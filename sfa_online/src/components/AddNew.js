@@ -29,6 +29,7 @@ export default class AddNew extends Component {
                             <Row>
                                 <Col><AddEvent /></Col>
                                 <Col><AddEvento /></Col>
+                                <Col><AddEvent /></Col>
                             </Row>
                         </Container>
                     </Tab>
