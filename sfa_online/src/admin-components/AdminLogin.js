@@ -9,10 +9,10 @@ export default function AdminLogin() {
     return (
         <div className="login-wrapper"><br/>
         <h1>Administrative Login</h1>
-        <i>This is the intended login for SFA Administration ONLY</i><br/>
+        <i>This is the intended login for San Francisco de Asis Administration ONLY</i><br/>
         <Form>
           <Form.Group controlId="formBasicEmail">
-            <Form.Label>Admin Email</Form.Label>
+            <Form.Label>Administrative Email</Form.Label>
             <Form.Control type="email" placeholder="Enter email" />
             
           </Form.Group>
