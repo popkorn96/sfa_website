@@ -10,6 +10,8 @@ export default function SpSobreNosotros() {
             <div id="content-wrap">
                 <SpanishNavigationBar />
                 <h1>Quienes Somos</h1>
+                <p>Run all translations through official translator</p>
+
                 <Container>
                     <i><p>Los episcopales creemos en un Dios amoroso, liberador y vivificante; Padre, Hijo y Espíritu Santo. <br/>
                     Como moembros constitutivos de la Cominión Anglicana en Estados Unidos, como descendientes y nos asociamos <br/>

@@ -9,6 +9,9 @@ export default function SpGaleria() {
             <div id="content-wrap">
                 <SpanishNavigationBar />
                 <h1>Galería</h1>
+                <p>Run all translations through official translator</p>
+                <p>Run all translations through official translator</p>
+
                 <Anuncios />
                 <SpFooter />
             </div>
