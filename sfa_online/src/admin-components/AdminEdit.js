@@ -10,6 +10,7 @@ export default function AdminEdit() {
                 <Button variant="outline-success" href="/admin-add-new" size="lg">Add New </Button>{' '}
                 <Button variant="outline-info" href="/admin-show-all" size="lg">See All </Button><br/><br/><br/>
                 <h1>Admin Page</h1><br/>
+                <p>Aive permissions to admin roles: General, Secretarial, and Main</p>
                 <i><h4>English Pages</h4></i>
                 <Tabs id="controlled-tab-example">
                         <Tab eventKey="edit-home" title="Edit Home"> 
