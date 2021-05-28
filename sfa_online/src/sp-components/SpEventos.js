@@ -9,7 +9,6 @@ export default function SpEventos() {
             <div id="content-wrap">
                 <SpanishNavigationBar />
                 <h1>Eventos</h1>
-                <p>Run all translations through official translator</p>
 
                 <Anuncios />
                 <SpFooter />

@@ -29,7 +29,7 @@ export default function Anuncios() {
                 <hr />
                 <p className="mb-0">
                     Whenever you need to, be sure to use margin utilities to keep things nice
-                    and tidy...
+                    and tidy.
                 </p>
                 </Alert>
         </div>
