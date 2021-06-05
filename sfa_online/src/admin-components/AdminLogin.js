@@ -8,7 +8,6 @@ export default function AdminLogin() {
 
     return (
         <div className="login-wrapper"><br/>
-        <p>See if you can add omniauth to the login portal</p>
         <h1>Administrative Login</h1>
         <Form>
           <Form.Group controlId="formBasicEmail">
