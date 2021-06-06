@@ -10,7 +10,6 @@ export default function AdminLogin() {
         <div className="login-wrapper"><br/>
         <p>See if you can add omniauth to the login portal</p>
         <h1>Administrative Login</h1>
-        <i>This is the intended login for San Francisco de Asis Administration ONLY</i><br/>
         <Form>
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Administrative Email</Form.Label>
