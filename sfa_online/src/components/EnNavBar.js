@@ -12,7 +12,7 @@ const EnglishNavigationBar = (props) => {
           <Dropdown as={NavItem}>
             <Dropdown.Toggle as={NavLink}>Ministries</Dropdown.Toggle>
             <Dropdown.Menu>
-              <Dropdown.Item>Hello there! This is where you need to add all of the ministries as instructed by priest.</Dropdown.Item>
+              <Dropdown.Item>Hello there! </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
           <Nav.Link href="/en-don">Donations </Nav.Link>
