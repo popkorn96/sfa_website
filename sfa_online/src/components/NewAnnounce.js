@@ -5,7 +5,6 @@ export default class NewAnnounce extends Component {
         return (
             <div>
                 <Form>
-                    <p>Add option for flash announcement</p>
                     <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Label>Title</Form.Label> 
                         {/* Heading */}
