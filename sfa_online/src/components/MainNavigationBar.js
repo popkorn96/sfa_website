@@ -21,7 +21,7 @@ export const MainNavigationBar = (props) => {
             <Nav>
             <Nav.Link href="/en-home">English</Nav.Link>
             <Nav.Link eventKey={2} href="/sp-pagina-principal">Español</Nav.Link>
-            </Nav>     
+            </Nav>  
             <Nav>
                 <Nav.Link href="/admin-login"><Icon.LogIn/></Nav.Link>
             </Nav>
