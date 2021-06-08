@@ -17,11 +17,11 @@ export const MainNavigationBar = (props) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-            </Nav>  
-            <Nav>  
+            </Nav>
+            <Nav>
             <Nav.Link href="/en-home">English</Nav.Link>
             <Nav.Link eventKey={2} href="/sp-pagina-principal">Español</Nav.Link>
-            </Nav>   
+            </Nav>     
             <Nav>
                 <Nav.Link href="/admin-login"><Icon.LogIn/></Nav.Link>
             </Nav>
