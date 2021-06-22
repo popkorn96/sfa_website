@@ -5,7 +5,7 @@ export default function Main() {
     return (
         <div>
             <MainNavigationBar />
-            <p></p>
+            <p>
         </div>
     )
 }
