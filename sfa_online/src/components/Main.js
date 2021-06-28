@@ -6,7 +6,7 @@ export default function Main() {
         <div>
             <MainNavigationBar />
 
-    
+
         </div>
     )
 }
