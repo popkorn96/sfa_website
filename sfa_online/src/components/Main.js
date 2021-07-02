@@ -4,7 +4,7 @@ import MainNavigationBar from './MainNavigationBar';
 export default function Main() {
     return (
         <div>
-            <MainNavigationBar />
+            <MainNavigationBar />z
         </div>
     )
 }
