@@ -8,7 +8,7 @@ export default function MainComponent() {
             <div className="main-container">
                 <Image src="./main-back5.png" fluid/>
                 <EnFooter />
-                <SpFooter
+                <Sp
             </div>
         </div>
     )
