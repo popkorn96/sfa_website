@@ -17,7 +17,6 @@ export const SpanishNavigationBar = (props) => {
           </Dropdown>
           <Nav.Link href="/sp-donaciónes">Donaciónes</Nav.Link>
           <Nav.Link href="/sp-sobre-nosotros">Quienes Somos</Nav.Link>
-          
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Buscar en SFA..." className="mr-sm-2" />
